@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 html {
@@ -12,7 +12,6 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: black;
   color: #fff;
 }
 
@@ -24,6 +23,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -68,12 +68,13 @@ header h1 {
 }
 
 .info {
-  width: 390px;
-  margin-top: 6rem;
+  width: 425px;
+  margin-top: 7.5rem;
 }
 
 .info p {
   font-size: 13px;
+  margin: 0.7rem 0 0.25rem 0;
 }
 
 .info-btn {
@@ -95,7 +96,7 @@ header h1 {
 
 .play img {
   width: 45px;
-  margin-top: 1.4rem;
+  margin-top: 1.2rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -135,24 +136,14 @@ header h1 {
 
 .info-image img {
   width: 542px;
-  margin-bottom: -0.45rem;
-}
-
-@media screen and (max-width: 600px) {
-  .info-image img {
-    width: 400px;
-    padding-right: 8rem;
-  }
-  header {
-    padding-left: 2.5rem;
-    padding-right: 2rem;
-  }
+  margin-bottom: -0.3rem;
 }
 
 .info-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 2.3rem;
 }
 
 .sponsor {
@@ -162,6 +153,11 @@ header h1 {
 .partners-image img {
   width: 600px;
   position: relative;
+  margin-top: -1rem;
+}
+
+.partners {
+  margin-top: 0.2rem;
 }
 
 .partners h3 {
@@ -185,6 +181,7 @@ header h1 {
 
 .about-content {
   width: 350px;
+  margin-top: 0.3rem;
 }
 
 .about-content h3 {
@@ -264,12 +261,13 @@ header h1 {
 .profile h4,
 .profile p {
   text-align: center;
+  margin-top: 0.1rem;
 }
 
 .social-account {
   background-color: #ff662d;
   width: 249px;
-  padding: 21px 0 14px 73px;
+  padding: 25px 0 25px 73px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -352,7 +350,6 @@ header h1 {
 
 .learn-more img {
   position: absolute;
-  margin-top: 4px;
   margin-left: 8px;
   cursor: pointer;
 }
@@ -384,7 +381,6 @@ header h1 {
   width: 20px;
   height: 20px;
   margin-right: 10px;
-  margin-top: 3.8px;
 }
 
 .choose-points p {
@@ -470,7 +466,7 @@ header h1 {
 }
 
 .price p {
-  margin-top: 15px;
+  margin-top: 13px;
   margin-left: 5px;
   font-size: 14px;
 }
@@ -481,7 +477,7 @@ header h1 {
 }
 
 .offer img {
-  width: 20px;
+  width: 18px;
   margin-right: 5px;
 }
 
