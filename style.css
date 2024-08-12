@@ -152,6 +152,9 @@ header h1 {
 .partners-image img {
   width: 600px;
   position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: -1rem;
 }
 
 .partners h3 {
